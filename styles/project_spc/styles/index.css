@@ -1,0 +1,12 @@
+main {font-family: "noto sans kr", "맑은고딕",sans-serif; text-align: center;}
+main h1 {padding-bottom: 14px; font-size: 3.125rem; font-weight: 700;}
+main > p {font-weight: 300; padding-bottom: 40px;}
+/* p 자간 공통 */
+main > p,
+main .bg > p,
+main .bg .vision h2 { letter-spacing: -0.2;}
+main .bg {padding-top: 40px; background-color: #f5f5f5;}
+main .bg > p {line-height: 30px; padding-bottom: 30px;}
+main .bg .vision {}
+main .bg .vision h2 {color: #36B4E5; font-size: 1.875rem; padding-top: 30px; padding-bottom: 30px;}
+main .bg .vision p { font-size:2.188rem; line-height: 45px;}

@@ -1,0 +1,49 @@
+main {
+    background-color: lightgray;
+    font-family: "noto sans kr", "맑은고딕",sans-serif;
+    
+}
+main .first {
+    /* background-color: yellow; */
+    /* background-color: #ffff00; */
+    /* background-color: #ff0; */
+    /* background-color: rgb(255, 255, 0); */
+    background-color: rgba(225,225,0,0.35);
+}
+main .first h1 {
+    font-family: Jua, sans-serif;
+    font-size: 1.75rem; /*20px*/
+}
+main .first p {
+    font-family: "Nanum Pen Script"; sans-serif;
+    font-size: 0.85rem; /*20px*/
+}
+main .first p em {
+    font-size: 1.0rem; /*20px*/
+}
+main .second {
+    /* background-color: green; */
+    /* background-color: #008000; */
+    /* background-color: #080; */
+    /* background-color: rgb(15, 120, 15); */
+    background-color: rgba(15, 120, 15, 0.5);
+}
+main .second h1 {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 1.75rem; /*20px*/
+}
+main .second p {
+    font-family: "Single Day";sans-serif;
+    font-size: 0.85rem; /*20px*/
+}
+main .second ul {}
+main .second ul li {
+    /* line-height: 1.7; */
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+}
+/* 공통 */
+/* main section h1 {font-size: 2.188rem;} */
+main .first h1,
+main .second h1 {font-size: 2.188rem;}
