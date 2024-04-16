@@ -1,0 +1,19 @@
+main {
+    font-family: "noto sans kr", "맑은고딕",sans-serif;
+}
+main .first {}
+main .first h1 {
+    font-family: Jua, sans-serif;
+}
+main .first p {
+    font-family: "Nanum Pen Script"; sans-serif;
+}
+main .first p em {
+    font-family: "Nanum Pen Script"; sans-serif;}
+main .second {}
+main .second h1 {
+    font-family: "Nanum Myeongjo", serif;
+}
+main .second p {
+    font-family: "Single Day";sans-serif;
+}
