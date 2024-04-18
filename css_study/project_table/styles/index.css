@@ -1,0 +1,25 @@
+main {font-family: "noto sans kr", "맑은고딕",sans-serif;}
+main .top{}
+main p {letter-spacing: -0.4px;}
+main .top h1{font-size: 3.125rem; font-weight: 700;  letter-spacing: -0.4px; line-height: 1.2;} 
+main .top h1 em { color:  #03C75A; font-size: 3.125rem; font-weight: 700;  letter-spacing: -0.4px;}
+main .top p {padding-top: 48px;  font-size: 1.25rem; line-height: 1.7;}
+main .top p .user { color:  #03C75A; padding-top: 48px; font-size: 1.25rem}
+main .top p a { font-size: 1.25rem; line-height: 1.7; text-decoration: underline;}
+main h2 {padding-top: 50px; padding-bottom: 22px; font-size: 1.563rem;} 
+main h2 span {font-size: 1.25rem;}
+main .t1 {border-top: 3px solid black; width: 930px; }
+main .t1 thead {background-color: #f5f5f5;}      
+main .t1 thead tr {}
+main .t1 thead tr th {}
+main .t1 tbody { border: 1px solid #aaa; border-left: 0; border-right: 0;}
+main .t1 tbody tr {} 
+main .t1 tbody tr td {}
+main .t1 tbody tr td em { color:  #03C75A;}
+main .t1 thead tr .align ,
+main .t1 tbody tr .align {text-align: center;}
+main .t1 tr *{padding-top: 15px; padding-bottom: 15px;}
+main .detail_view  {text-align: right; width: 930px;display: inline-block; padding-top: 10px;}
+main .btm {padding-top: 165px; text-align: center; } 
+main .btm a{ background-color: #03C75A; font-size: 1.25rem; border-radius: 30px;
+            padding: 20px 40px 20px 40px; color: white;} 
