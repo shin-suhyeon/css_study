@@ -1,0 +1,25 @@
+main {font-family: "noto sans kr", "맑은고딕",sans-serif; padding: 46px; }
+main h1{font-size: 3.125rem; line-height: 60px;}
+main  .user{margin-top: 48px; margin-bottom: 36px; font-size: 1.5rem; line-height: 28.8px; letter-spacing: -0.4%; font-weight: 700;}
+main .user em{ color: #03C75A; font-weight: 700;}
+main .tt{border: 1px solid #ddd; width: 769px; font-size: 1.125rem;
+            line-height: 21.6px; letter-spacing: -0.2%;}
+main .tt thead{}
+main .tt td:nth-child(1)  {background-color: #ccb9b9; width: 167px; padding: 14px;}
+main .tt th:nth-child(1) {background-color:  #ccb9b9;  padding: 14px;}
+main .tt thead tr{border: 1px solid #ddd; border-top: 3px solid black;}
+main .tt thead tr th{padding: 14px; padding-bottom: 47px; padding-top: 21px;}
+main .tt tbody {}
+main .tt tbody tr:nth-child(3) td:nth-child(2) {font-weight: 700;}
+main .tt tbody tr:nth-child(2) td:nth-child(2) {font-weight: 700;}
+main .tt tbody tr:nth-child(4) td:nth-child(2) {font-weight: 700;}
+main .tt tbody tr {border: 1px solid #ddd;}
+main .tt tr td th { padding: 14px;}
+main .tt tbody tr td {border: 1px solid #ddd; padding: 14px;}
+main .tt tbody tr:nth-child(4){border-bottom: 3px solid black;}
+main .detail {padding-top: 5px;font-size: 1.25rem; letter-spacing: -0.4%;}
+main .detail a{text-decoration: underline;}
+main .my {text-align: center;}
+main .my .go {margin-top: 92px; background-color: #03C75A; display: inline-block;
+    width: 234px; height: 64px; border-radius: 30px;  color: white;
+padding: 20px 40px; font-size: 1.25rem; }
