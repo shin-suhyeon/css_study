@@ -18,7 +18,7 @@ main .bg .goal .goal_detail .goal1 {background-color: #36B4E5; height: 250px; wi
 main .bg .goal .goal_detail .goal1 .icon { padding-top: 67px;}
 main .bg .goal .goal_detail .goal1 .icon img {height: 60px; width: 60px; }
 main .bg .goal .goal_detail .goal1 h3 {color: #f5f5f5;  font-size: 25px; padding-top: 20px;}
-main .bg .goal .goal_detail .goal2 {background-color: #f5f5f5; height: 250px; width: 250px;display: inline-block;  border: 1px solid #000; border-radius: 50%; box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
+main .bg .goal .goal_detail .goal2 {background-color: #f5f5f5; height: 250px; width: 250px;display: inline-block; border-radius: 50%; box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
 main .bg .goal .goal_detail .goal2 .icon { padding-top: 67px; }
 main .bg .goal .goal_detail .goal2 .icon img {height: 60px; width: 60px; }
 main .bg .goal .goal_detail .goal2 h3 { font-size: 25px; padding-top: 20px; }
@@ -29,3 +29,22 @@ main .bg .goal .goal_detail .goal3 h3 {color: #f5f5f5; font-size: 25px; padding-
 /* figma drop-shadow == css box-shadow */
 /* box-shadow:x축y축 blur값 색상; */
 /* text-align:center: */
+main .bg .strategy { padding-top: 151px; }
+main .bg .strategy h3 {font-size: 1.563rem; font-weight: 500;  padding-top: 71px; text-decoration: underline black}
+main .bg .strategy p {font-size: 1.313rem; padding-top: 10px;}
+main .bg .strategy h2 {padding-bottom: 51px;color: #36B4E5; font-size: 1.875rem;}
+main .bg .strategy .val {background-color: #eee; display: inline-block; width: 240px; height: 240px; border-radius: 125px; box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
+main .bg .strategy .val h3 {}
+main .bg .strategy .val h3 p {}
+main .bg .strategy .exp {background-color: #eee; display: inline-block; width: 240px; height: 240px; border-radius: 125px;box-shadow:0px 0px 6px rgba(0,0,0,0.25);} 
+main .bg .strategy .exp h3 {}
+main .bg .strategy .exp h3 p {}
+main .bg .strategy .pio {background-color: #eee;display: inline-block; width: 240px; height: 240px; border-radius: 125px;box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
+main .bg .strategy .pio h3 {}
+main .bg .strategy .pio h3 p {}
+main .bg .strategy .fou {background-color: #eee;display: inline-block; width: 240px; height: 240px; border-radius: 125px;box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
+main .bg .strategy .fou h3  {}
+main .bg .strategy .fou h3 p {}
+main .bg .strategy .sma {background-color: #eee;display: inline-block; width: 240px; height: 240px; border-radius: 125px;box-shadow:0px 0px 6px rgba(0,0,0,0.25);}
+main .bg .strategy .sma h3 {}
+main .bg .strategy .sma h3 p {}

@@ -1,0 +1,18 @@
+table {margin:82px 53px;}
+table td, table th {padding: 20px;}
+main {font-family: "noto sans kr", "맑은고딕",sans-serif; text-align: center;  border-radius: 30px; overflow: hidden; width: 990px;}
+main .t1 { width: 918px;}
+main .t1 thead {}
+main .t1 thead tr {background-color: #ED215E; color: white; height: 87px; border-radius: 30px;}
+main .t1 thead tr th {border: 1px solid white; text-align: center; font-size: 1.563rem;}
+main .t1 tbody {background-color: #ededed;}
+main .t1 tbody tr:nth-child(2), main .t1 tbody tr:nth-child(4) {background-color: #d9d9d9;}
+main .t1 tbody td {border-right : 1px solid white;}
+main .t1 tbody tr:nth-child(2) {border : 2px solid  #ED215E; color: #ED215E; font-weight: 600px; }
+main .t1 tbody tr {font-size: 1.313rem; height: 74px; }
+main .t1 thead tr th:nth-child(1) {width: 355px;}
+main .t1 tbody tr:nth-child(1) td:nth-child(1),
+main .t1 tbody tr:nth-child(2) td:nth-child(1),
+main .t1 tbody tr:nth-child(3) td:nth-child(1),
+main .t1 tbody tr:nth-child(4) td:nth-child(1),
+main .t1 tbody tr:nth-child(5) td:nth-child(1) {text-align: left;}

@@ -1,0 +1,20 @@
+table {margin: 0 57px; border-width: 5px; border-style: solid; width: 746px; }
+table td, table th {padding: 20px; border: 1px solid #aaa;}
+.t1 {border: 1px solid #aaa; }
+.t1 tr th td {border: 1px solid #aaa; }
+main {font-family: "noto sans kr", "맑은고딕",sans-serif; text-align: center;}
+main h1{color: #888; line-height: 1.5; font-size: 1.5rem; padding-top: 63px; width: 859px;}
+main h2{font-weight: 700;  font-size: 1.5rem; margin : 63px 0 10px ; width: 859px;}
+/* main .t1 thead {font-weight: 700;} */
+main .t1{ font-size: 1.25rem; }
+main .t1 tr{}
+main .t1 tr:nth-child(1) {background-color: #00155E; color: #fff;}
+main .t1 tr:nth-child(3) td:nth-child(2),
+main .t1 tr:nth-child(5) td:nth-child(2),
+main .t1 tr:nth-child(7) td:nth-child(2),
+main .t1 tr:nth-child(2) td:nth-child(3),
+main .t1 tr:nth-child(4) td:nth-child(3),
+main .t1 tr:nth-child(6) td:nth-child(3) {color: #888; width: 207px;}
+main .t1 tr:nth-child(2) td:nth-child(4) {font-weight: 700; width: 203px; line-height: 150%;}
+main .t1 tr th{font-weight: 700; width: 231px; text-align: center; }
+main .t1 tr td{}
