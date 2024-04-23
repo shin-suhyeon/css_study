@@ -1,0 +1,21 @@
+body, html {background-color: #222;}
+main {background-color: #222; width: 1024px; text-align: center;font-family: "noto sans kr", "맑은고딕",sans-serif; letter-spacing: 0.2%;}
+main h1 a img {width: 200px; display: inline-block; height: 60.5px; margin-top: 97px;}
+main .signin {color: white; margin-top: 118.95px;display: inline-block; margin-bottom: 52px;
+    margin-right: 136px; border-bottom: 3px solid #1ED760; padding-bottom: 3px;  font-size: 1.25rem;}
+main .signup {color: white; display: inline-block; font-size: 1.25rem;}
+#login_frm input[type^=text] {width: 500px; height: 73px; border-radius: 36.5px; padding: 25px 40px;}
+#login_frm input[type^=pass] {width: 500px; height: 73px; border-radius: 36.5px; padding: 25px 40px; margin-top: 14px; margin-bottom: 31px;}
+main fieldset {color: white; margin-bottom: 33px; text-align: left; margin-left: 262px;}
+main #login_frm fieldset .in input[name^=stay]{display: none;}
+main #login_frm fieldset .in input[name^=stay]:checked + label {
+    background-image:url(../images/check_box\ \(5\).svg)}
+main #login_frm fieldset .in label[for^=sign]
+    {
+    background-image:url(../images/check_box\ \(3\).svg);
+    background-repeat: no-repeat;
+    padding-left : 34px;
+    display:inline-block;
+    padding-bottom: 33px;}
+main .btn button{width: 500px; height: 73px; border-radius: 36.5px; padding: 25px 40px; background-color: #1ED760;}
+main .forget {color: white; margin-top:14px; padding-bottom:314px; display: block;}

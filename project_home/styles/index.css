@@ -1,0 +1,19 @@
+main {font-family: "noto sans kr", "맑은고딕",sans-serif;letter-spacing: -0.2%; margin: 84px auto 0; width: 500px;}
+main h1 {font-weight:700; font-size: 4.375rem;}
+main .details {font-size: 1.25rem;  margin-top: 25px; text-align: left; width: 500px;}
+main form {}
+main form dl {}
+main form .em {font-weight: 700; font-size: 1.875rem;}
+main form .em dl dt {margin-top: 57px; }
+main form .em dl dd {margin-top: 18px; width: 500px; }
+#login_frm input[type^=em] {padding-left: 15px; width: 500px; height: 53px; border-radius: 10px;  border: 1px solid #aaa;}   
+#login_frm input[type^=pass] {padding-left: 15px; width: 500px; height: 53px; border-radius: 10px;  border: 1px solid #aaa;}  
+main form  dl dt {margin-top: 38px; font-weight: 700; font-size: 1.875rem;}
+main form  dl dd {margin-top: 18px;}
+main form h2 {font-weight: 700; font-size: 1.875rem; margin-top: 38px;}
+main form .btn_g {}
+main form .btn_g #Login {margin-top: 32px; background-color: #222; color: white; width: 500px; height: 53px; border-radius: 10px;font-weight: 700;}
+main form .btn_g #Sign_google {margin-top: 18px; width: 500px; height: 53px; border-radius: 10px; display: block; font-weight: 700; background-color: #fff;  border: 1px solid #aaa;}
+main p {font-size: 1rem; text-align: center; width: 500px; margin-top: 62px;}
+main p a {font-weight: 700;}
+main #login_frm dl dd input [name^=user]::placeholder 
