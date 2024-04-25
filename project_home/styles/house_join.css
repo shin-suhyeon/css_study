@@ -1,0 +1,43 @@
+main{font-family: "noto sans kr", "맑은고딕",sans-serif; width: 360px;}
+main h1{font-size: 1.25rem; font-weight: 500; margin: 10px 0 25px 20px;}
+main p{font-size: 0.75rem; color: #727272; text-align: center; margin-bottom: 14px;}
+main .sns {text-align: center; border-bottom: 1px solid #d9d9d9; padding-bottom: 31px;}
+main .sns a {margin-left: 18px;}
+main #join_frm .user_info {}
+main #join_frm .user_info dl {}
+
+/* dt */
+main #join_frm .user_info dl dt{padding-left: 20px; font-weight: 500; margin-bottom: 10px;}
+/* dd */
+main #join_frm .user_info dl dd{padding-left: 20px;}
+/* dd 박스 */
+main #join_frm .user_info dl dd input{ width: 360px; height: 40px; border-radius: 5px; border: 1px solid #d9d9d9; padding-left: 10px; margin-bottom: 26px;}
+/* dd박스위 글자 */
+main #join_frm .user_info dl dd span{color: #b2b2b2; font-size: 0.75rem;}
+main #join_frm .user_info dl dt:nth-child(2n) {margin-bottom: 16px;}
+/* 이메일 */
+main #join_frm .user_info dl dd:nth-child(2) input { width: 169px;}
+main #join_frm .user_info dl dt:first-child {margin-top: 28px;}
+/* 네이버 */
+main #join_frm .user_info select[name^=select]{width: 169px; height: 40px; border-radius: 5px; border: 1px solid #d9d9d9; padding-left: 10px;}
+/* 이메일인증하기 */
+main #join_frm .user_info dl dd:nth-child(3) button {width: 360px; height: 50px; border-radius: 5px; background-color: #f0f0f0; border: 1px solid #d9d9d9; margin-bottom: 28px;}
+main #join_frm .user_info dl dd:nth-child(5), 
+main #join_frm .user_info dl dd:nth-child(10){margin-bottom: 8px;}
+/* 약관동의 */
+main #join_frm .agreeTerms label[for^=a]{line-height: 45px;}
+main #join_frm .agreeTerms{height: 294px; width:375px; border: solid 1px #d9d9d9; margin-top: 21px; font-size: 0.875rem; margin-left: 13px; padding: 13px 0 32px 20px; }
+main #join_frm .agree h2{margin-left: 12px; font-weight: 500; }
+main #join_frm .agree .agreeTerms{}
+main #join_frm .agree .agreeTerms ul {}
+main #join_frm .agree .agreeTerms ul li{}
+main #join_frm .agree .agreeTerms ul li span{font-size: 0.75rem;}
+main #join_frm .go{ margin-left: 15px;}
+main #join_frm .go button{background-color: #38ADE0; border: none; border-radius: 5px; width: 369px; height: 50px; margin-top: 22px; color: white; font-size: 1.15rem; font-weight: 500; margin-bottom: 26px;}
+main #join_frm .go button p{}
+main #join_frm .go .btm {color: black;}
+main #join_frm .go .btm a {font-weight: 600; text-decoration: underline;}
+main #join_frm .agree .agreeTerms ul li:nth-child(1) {border-bottom: 1px solid #d9d9d9;}
+main #join_frm .agree .agreeTerms ul li:nth-child(1) label em {font-weight: 600;}
+main #join_frm .agree .agreeTerms ul li:nth-child(1) label span {color: #737373;}
+main #join_frm .agree .agreeTerms ul li label .blu  {color: #4CB4FF;} 

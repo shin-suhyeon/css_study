@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <title>회원가입 | 웹컬리</title>
 </head>
-<body>
+    <body>
     <main>
         <h1><a href="#"><img src="./images/kurly_logo.png" alt="Kurly"></a></h1>
         <div class="law">
@@ -28,10 +28,10 @@
                     <dd><input type="text" name="id" placeholder="아이디를 입력해주세요"></dd>
                     <dd><button type="button" id="duplication">중복확인</button> </dd>
                     <dt>비밀번호<span>*</span></dt>
-                    <dd><input type="text" name="password" placeholder="비밀번호를 입력해주세요"></dd>
+                    <dd><input type="password" name="password" placeholder="비밀번호를 입력해주세요"></dd>
                     <dd></dd>
                     <dt>비밀번호확인<span>*</span></dt>
-                    <dd><input type="text" name="verifyPassword" placeholder="비밀번호를 한번 더 입력해주세요"></dd>
+                    <dd><input type="password" name="verifyPassword" placeholder="비밀번호를 한번 더 입력해주세요"></dd>
                     <dd></dd>
                     <dt>이름<span>*</span></dt>
                     <dd><input type="text" name="name" placeholder="이름을 입력해주세요"></dd>   
@@ -49,35 +49,32 @@
                             <option value="phone">LG알뜰폰</option>
                             <option value="phone">SKT알뜰폰</option>
                         </select>
+                        <input type="text" name="phone" placeholder="숫자만 입력해주세요 예)01012345678">
                     </dd>
-                    <dd><input type="text" name="phone" placeholder="숫자만 입력해주세요 예)01012345678"></dd>
-                    <dd><button type="button" id="duplication">인증번호 받기</button></dd>
+                    <dd><button type="button" id="duplications">인증번호 받기</button></dd>
                     <dt>주소<span>*</span></dt>
                     <dd>
                         <button type="button" id="address">주소 검색</button>
-                        <span>배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
+                        <span class="change">배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
                     </dd>
                     <dd></dd>
                     <dt>성별</dt>   
                     <dd>
-                        <label>
-                            <input type="radio" name="gender" value="male"><span>남자</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="gender" value="female"><span>여자</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="gender" value="notSelected"><span>선택안함</span>
-                        </label>
+                        <input type="radio" name="gender" value="male" id="male">
+                        <label for="male">남자</label>
+                        <input type="radio" name="gender" value="female" id="female">
+                        <label for="female">여자</label>
+                        <input type="radio" name="gender" value="none" id="none">
+                        <label for="none">선택안함</label>
                     </dd>
                     <dd></dd>
                     <dt>생년월일</dt>
                     <dd>
-                        <input type="text" name="year" placeholder="YYYY">
+                        <input type="text" name="bir_year"  placeholder="YYYY">
                         <span>/</span>
-                        <input type="text" name="month" placeholder="MM">
+                        <input type="text" name="bir_month" placeholder="MM">
                         <span>/</span>
-                        <input type="text" name="day" placeholder="DD">
+                        <input type="text" name="bir_day" placeholder="DD">
                     </dd>
                     <dd></dd>  
                 </dl>
