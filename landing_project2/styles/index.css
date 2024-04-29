@@ -1,0 +1,24 @@
+main {font-family: "noto sans kr", "맑은고딕",sans-serif; width: 100%;}
+main .bg {}
+main .bg1 {background-image: url(../images/1bg.jpg); height: 1000px;text-align: center; background-repeat: no-repeat;}
+main .bg1 .logo {}
+main .bg1 .logo>img {display: inline-block; margin-top: 30px;}
+main .bg1 h1 {text-align: center;}
+main .bg1 h1 img {margin-top: 40px;}
+main .bg1 p {text-align: center; margin-top: 17px;font-weight: 500; font-size: 0.875rem; letter-spacing: 4%; color: #fff;}
+/* --------------------------------------------------2---------------------------------------------- */
+main .bg2 {width: 1250px;margin: 0 auto;}
+main .bg2 .event {display: inline-block; float: left; font-family: "Jua";}
+main .bg2 .event h2 {margin-top: 50px; text-align: center;}
+main .bg2 .event h3 {margin-top: 10px;  font-size: 1.5rem; color: #541C37; letter-spacing: 4%;}
+main .bg2 .event h3 img {}
+main .bg2 .event ul {}
+main .bg2 .event li {}
+main .bg2 .img_hart {display: inline-block; text-align: center;}
+main .bg2 .img_hart img {}
+main .bg2 .number { display: inline-block; float: right;} 
+main .bg2 .number .phone {}
+main .bg2 .number .phone img {}
+main .bg2 .number .phone input {}
+main .bg2 .number .phone p {}
+main .bg2 .number .phone p img {}
