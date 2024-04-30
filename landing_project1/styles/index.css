@@ -1,0 +1,140 @@
+main {}
+/*--------------------------- 배경 공통&개별값 --------------------------------*/
+main .bg {background-position: center; background-repeat: no-repeat;}
+main .bg1 { height: 1002px; background-image: url(../images/bg.jpg); }
+/* --------------------------------1.표지------------------------------------ */
+main .bg1 section {width: 1250px; margin: 0 auto;}
+main .bg1 section h2 { font-size: 4.375rem; color: #FFF; text-align: center; line-height: 120%; letter-spacing: -0.2px; margin: 178px 0 37px;}
+main .bg1 section h2 span {font-weight: 700;}
+main .bg1 section .sponsor_link::after{content: '';  background-image: url(../images/btn_right_arrow.svg);  background-repeat: no-repeat; width: 32px; height: 32px; display: inline-block; }
+main .bg1 section .sponsor_link{
+    /* css 회전각도단위 deg */ 
+    width: 409px; height: 71px;margin: 0 auto; 
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 50px; font-size: 2.125rem; font-weight: 700; color: white;
+    background: linear-gradient(90deg, #FE9309, #FF7300);}
+    /* gradient 적용을 위해 baxxkground 통합속성을 사용했을때 해당 요소 추가 배경 이미지 꾸미기를 원한다면 가상 선택자(before,after)를 활용하는것을 권장한다 */
+main .bg1 section .sponsor_question{
+    background-color: #050505; color: white; float: right; width: 336px; margin-top: 88px;
+    height: 40px; border-radius: 50px; font-size: 1.25rem;
+    display: flex; justify-content: center; align-items : center;
+    }
+main .bg1 section .sponsor_question::before{
+    content:''; background-image: url(../images/icon_sms.svg); width: 24px; height: 24px; background-repeat: no-repeat;display: flex; justify-content: center; align-items : center;}
+main .bg1 section .sponsor_question::after{
+    content:''; background-image: url(../images/arrow_forward_ios.svg); width: 10px; height: 17px; background-repeat: no-repeat; 
+    display: flex; justify-content: center; align-items : center; }
+/* ---------------------------------------------2번 퀴즈------------------------------------ */
+main .bg2 {background-image: url(../images/bg_2.jpg); height: 420px;}
+main .bg2 .all {width: 1250px;margin: 0 auto;}
+main .bg2 .all #Quiz{display: inline-block; color: white;}
+main .bg2 .all #Quiz .quiz .quiz_box h2{ text-align: center; margin-top: 28px; margin-bottom: 25px; font-size: 3.438rem; color: white; font-weight: 500;} 
+main .bg2 .all #Quiz .quiz .quiz_box h3{margin-bottom: 23px;}
+main .bg2 .all #Quiz .quiz .quiz_box ul input[name^=percent] {display: none;}
+main .bg2 .all #Quiz .quiz .quiz_box ul input[name^=percent]:checked + label {background-image: url(../images/quiz_cheked.svg);}
+main .bg2 .all #Quiz .quiz .quiz_box ul label{background-image: url(../images/quiz_unchecked.svg); background-repeat: no-repeat;
+display: inline-block; line-height: 28px;padding-left: 48px; width: 28px;} 
+main .bg2 .all #Quiz .quiz .quiz_box li{margin-bottom: 14px;}
+main .bg2 .all #Quiz button{margin-top: 18px; width: 450px; height: 54px; border-radius: 50px;  background-color: #050505; color: white; border: none; margin-bottom: 38px;}
+main .bg2 .all .participation{display: inline-block; float:right; margin-top: 118px; /* overflow: hidden; */}
+main .bg2 .all .participation h3{display: flex; align-items: center; justify-content:center ;  font-size: 1.35rem; background-color: #FF7300; width: 422px; line-height: 60px; color: white;
+border-top-left-radius:10px; border-top-right-radius:10px;}
+main .bg2 .all .participation h3::before{content:''; background-image: url(../images/icon_person.svg); background-repeat: no-repeat; 
+    width: 42px; height: 42px; display: inline-block;}
+main .bg2 .all .participation .people{background-color: white; width: 422px; height:140px; margin-bottom: 17px; color: black ; text-align: center; font-size: 2.313rem; font-weight: 600;
+    border-bottom-left-radius:10px; border-bottom-right-radius: 10px; padding-top: 40px;} 
+main .bg2 .all .participation .people em{  color: #FE9309; font-size: 3.438rem; font-weight: 700;}
+main .bg2 .all .participation .people span{ color: #FE9309; font-size: 1.875rem; font-weight: 600;}
+main .bg2 .all .participation p{text-align: right; color: white;}
+main .bg2 .all #Quiz .quiz .quiz_box ul li label{font-size: 1.25rem; padding-left: 48px;}
+/* ------------------------------------------3 유튜브 링크----------------------------------------- */
+main .bg3 {background-image: url(../images/bg_3.jpg); height: 1190px;}
+main .bg3 .all {text-align: center; margin-top: 87px;}
+main .bg3 .all h1 { font-weight: 700; font-size: 4.375rem;}
+main .bg3 .all iframe {margin-top: 70px;}
+main .bg3 .all .sponsor_link{width: 409px; height: 71px;margin: 0 auto; 
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 50px; font-size: 2.125rem; font-weight: 700; color: white;
+    background: linear-gradient(90deg, #FE9309, #FF7300); margin-top: 70px;}
+main .bg3 .all .sponsor_link::after{content: '';  background-image: url(../images/btn_right_arrow.svg); background-repeat: no-repeat; width: 32px; height: 32px; display: inline-block; }
+/* -----------------------------------------------4 빙하면적 50% 감소---------------------------------- */
+main .bg4 {background-image: url(../images/bg_4.jpg); height: 1024px;}
+main .bg4 .all {}
+main .bg4 .all h1 {font-size: 4.375rem; font-weight: 700; color: white; line-height: 120%; padding-top: 60px;}
+main .bg4 .all h1 span {background-color: white; color: black;font-size: 4.375rem; font-weight: 700; display: inline-block; padding: 7  px;}
+main .bg4 .all h2 {margin-top: 56px; color: white;  font-size: 2.125rem; line-height: 60px;} 
+main .bg4 .all img {margin-top: 20px; width: 1250px; height: 500px;}
+/* -----------------------------------------------------5 빙하 인류 재앙-------------------------- */
+main .bg5 {background-image: url(../images/bg_5.jpg); height: 1009px;}
+main .bg5 .all{text-align: center;}
+main .bg5 .all h1{padding-top: 100px; font-size: 3.438rem; text-align: center; letter-spacing: 0.1%; font-weight: 600;}
+main .bg5 .all .details {margin: 22px 0 100px; text-align: center; font-size: 1.625rem; line-height: 30px; font-weight: 600;}
+main .bg5 .all .box1{display: inline-block;}
+main .bg5 .all .box1 .head{}
+main .bg5 .all .box1 .body{}
+main .bg5 .all .box1 .detail{}
+main .bg5 .all .box2{display: inline-block;}
+main .bg5 .all .box2 .head{}
+main .bg5 .all .box2 .body{}
+main .bg5 .all .box2 .detail{}
+main .bg5 .all .box3{display: inline-block;}
+main .bg5 .all .box3 .head{}
+main .bg5 .all .box3 .body{}
+main .bg5 .all .box3 .detail{}
+main .bg5 .all .box1 .back1{background-image: url(../images/box_img1.jpg);}
+main .bg5 .all .box2 .back2{background-image: url(../images/box_img2.jpg);}
+main .bg5 .all .box3 .back3{background-image: url(../images/box_img3.jpg);}
+/* 공통 선택자 */
+main .bg5 .all .box1 .back1,main .bg5 .all .box2 .back2,main .bg5 .all .box3 .back3 {width: 387px; height: 320px; color: #fff;}
+main .bg5 .all .box1 .detail,main .bg5 .all .box2 .detail,main .bg5 .all .box3 .detail{background-color: #fff; width: 387px; height: 242px; font-size: 1.25rem; line-height: 170%; padding-top: 10px;}
+main .bg5 .all .box1 .back1,main .bg5 .all .box2 .back2{margin-right: 40px;}
+main .bg5 .all .box1 .head,main .bg5 .all .box2 .head,main .bg5 .all .box3 .head{font-size: 2.688rem; font-weight: 600; padding: 45px 0 15px;}
+main .bg5 .all .box2 .body,main .bg5 .all .box1 .body,main .bg5 .all .box3 .body {font-size: 1.625rem; }
+/* ---------------------------------------------------------------------------------6 북극곰의 위기---------------------------------------------------- */
+main .bg6 {background-image: url(../images/bg_6.jpg); height: 1024px;}
+main .bg6 .all {}
+main .bg6 .all h1 {font-size: 4.375rem; font-weight: 700; color: white; line-height: 120%; padding-top: 60px;}
+main .bg6 .all h1 span {background-color: white; color: black;font-size: 4.375rem; font-weight: 700; display: inline-block; padding: 7  px;}
+main .bg6 .all h2 {margin-top: 56px; color: white;  font-size: 2.125rem; line-height: 60px;} 
+main .bg6 .all img {margin-top: 20px; width: 1250px; height: 500px;}
+/* ----------------------------------------7 믿을수 있는 wwf------------------------ */
+main .bg7 { background-image: url(../images/bg_7.jpg); height: 783px;}
+main .bg7 .all{text-align: center;}
+main .bg7 h1 {padding-top: 103px; font-size: 4.375rem; font-weight: 700; }
+main .bg7 .first{margin-top: 80px;}
+main .bg7 .second{margin-top: 128px;}
+main .bg7 .first,main .bg7 .second{font-size: 2.125rem; line-height: 53px;}
+/* -----------------------------------------------------------8 다양한 활동 --------------------- */
+main .bg8 {background-image: url(../images/bg_8.jpg); height: 978px;}
+main .bg8 .all{}
+main .bg8 .all .flex{flex-wrap:wrap; display: flex;}
+main .bg8 .all .no_reason{text-align: center; }
+main .bg8 .all h1{padding-top: 65px; font-size: 3.438rem; font-weight: 500; line-height: 140%;
+    align-items:start}
+/* box1 */
+main .bg8 .all .box_1{background-image: url(../images/wwf_img1.jpg); width: 625px; height: 290px;background-repeat: no-repeat;
+    margin: 50px 25px 25px 0; display: flex;}
+main .bg8 .all .box_1 .box_head{} 
+main .bg8 .all .box_1 .box_detail{} 
+main .bg8 .all .box_1 {padding-top: 148px;}
+/* box2 */
+main .bg8 .all .box_2{background-image: url(../images/wwf_img3.jpg);background-repeat: no-repeat;  width: 625px; height: 290px;
+    align-items:baseline; display: flex;}
+main .bg8 .all .box_2 {padding-top: 148px;}
+main .bg8 .all .box_2.back_color .box_head{} 
+main .bg8 .all .box_2.back_color  .box_detail{} 
+/* box3 */
+main .bg8 .all .box_3{background-image: url(../images/wwf_img2.jpg); height: 605px; width: 600px; background-repeat: no-repeat; margin-top: 50px; 
+display: flex;}
+main .bg8 .all .box_3 .back_color {background-color: #2E3148; opacity : 0.85; width: 334px; height: 122px; margin-right: 20px;}
+main .bg8 .all .box_3 .back_color  .box_head{} 
+main .bg8 .all .box_3.back_color  .box_detail{} 
+main .bg8 .all .box_3 .box_color {margin-right: 20px;}
+main .bg8 .all .box_3 {padding-top: 449px;padding-left: 256px; text-align: right; }
+/* 공통선택자 */
+main .bg8 .all .box_1 .back_color,main .bg8 .all .box_2 .back_color{background-color: #2E3148; opacity : 0.85;width: 334px; height: 122px;}
+main .bg8 .all .box_1 .back_color .box_head,main .bg8 .all .box_2 .back_color .box_head,main .bg8 .all .box_3 .back_color .box_head
+{color: #fff; font-size: 2.125rem; font-weight: 500; padding-left: 20px; padding-top: 10px;}
+main .bg8 .all .box_1 .back_color .box_detail,main .bg8 .all .box_2 .back_color .box_detail,main .bg8 .all .box_3 .back_color .box_detail
+{color: #fff; padding-left: 20px; padding-top: 5px; font-weight: 300; font-size: 1.25rem; line-height: 150%;}
+main .bg8 .all .row {display: flex; flex-flow:column nowrap;}
