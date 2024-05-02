@@ -1,0 +1,33 @@
+#app{width: 375px; height: 812px; margin: 30px auto; border: 1px solid black; padding-top: 42px;}
+/*------------------------------------------------------------ top,logo --------------------------------------------------*/
+#app .top {height: 56px; border: 1px solid black; padding: 16px; border: 1px solid gray;}
+#app .top .prev{width: 24px; height: 24px; background-color: gray; overflow: hidden; display: inline-block;
+}
+#app .top .prev img{}
+#app h1{width: 170px; height: 43px; background-color: grey; margin: 40px auto ; }
+#app h1 a{}
+#app h1 a img{ }
+#app .keyboard_g{height: 32px; border: 1px solid gray; margin: 0 0 16px;
+    /* text-align: right;  */padding-right: 16px; display: flex; justify-content: flex-end;
+}
+#app .keyboard_g a{font-size: 0.75rem; display: flex; align-items: flex-start;}
+#app .keyboard_g a img{width: 16px; height: 16px;  background-color: gray; margin-left: 6px;}
+
+/* ------------------------------------------------------------------form ------------------------------------------------*/
+#app #login_frm {}
+#app #login_frm .login_g{}
+#app #login_frm .login_g ul li { } 
+#app #login_frm .login_g ul{text-align: center;}
+#app #login_frm .login_g ul li input[name^=user]{width: 343px; height: 56px; border: 1px solid black;}
+#app #login_frm .login_g ul li input[name$=id]{border-top-left-radius: 5px; border-top-right-radius: 5px; padding-left: 56px;}
+#app #login_frm .login_g ul li input[name$=pw]{border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-left: 56px; }
+#app #login_frm .login_g.btn{}
+#app #login_frm .login_g .btn #login_btn{width: 343px; height: 51px; margin: 0 17px; border-radius: 5px; margin-top: 20px;}
+/* ---------------------------------------------로그인 오류시 출력 메세지(기본 숨김)----------------------------------------- */
+#app #login_frm .login_g .error_message{font-size: 0.75rem; margin: 16px 0 16px 16px; display: none;} /* 초기 숨김 */
+/*------------------------------------------------------------- 찾기, 가입 ---------------------------------------------*/
+#app .search_join { border: 1px solid black;margin-top: 30px; text-align: center; display: flex; justify-content: center;}
+#app .search_join a {font-size: 0.75rem; display: flex;} 
+#app .search_join a::after {content: ''; display:block; width: 1px; height: 10px; background-color: black; margin: 0 8px; }
+/* -------------------------------------------마지막 구분선 제거 --------------------------------------*/
+#app .search_join a:last-child::after  {display: none;}
