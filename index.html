@@ -3,35 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>신수현 | 프로젝트 모음</title>
     <link rel="stylesheet" href="./styles/reset.css">
-    <style>
-        .bg { height: 400px; background-color: #5893EB; padding-top: 116px; text-align: center; }
-        .bg .lang{font-size: 2.25rem;font-weight: 600;}
-        .bg h1{font-size: 3rem; color: white;  font-weight: 600; margin-top: 5px;} 
-        .bg .date{font-size: 1.875rem; margin-top: 8px;}
-        .list {padding: 10px; width: 630px; margin: 20px auto 0; display: flex; flex-flow: row wrap;}
-        .list a {width: calc((100%  - 10px) / 2); border-bottom: 1px solid black; text-align: center; padding: 16px 12px;}
-        .list a:nth-child(odd) {margin-right: 10px;}
-    </style>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>북극곰 보호 캠페인</title>
 </head>
 <body>
-    <div class="bg">
-        <p class="lang">HTML, CSS</p>
-        <h1>신수현 프로젝트 모음</h1>
-        <p class="date">24.03.19 ~ 24.08.02 </p>
-    </div>
-    <div class="list">
-        <a href="./project_spc/index.html" target="_blank">SPC삼립 24/04/17</a>
-        <a href="./landing_project1/index.html"target="_blank">북극곰-랜딩페이지 24/04/30</a>
-        <a href="./naver/login.html"target="_blank">네이버 로그인 24/05/02</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">7</a>
-        <a href="#">8</a>
-        <a href="#">9</a>
-        <a href="#">10</a>
-    </div>
+    <main> <!-- 12 group 묶음 -->
+        <div class="bg bg1">
+            <section>
+                <h1><a href="#"><img src="./images/logo.png" alt="wwf"></a></h1>
+                <h2>생존의 벼랑 끝에 서 있는 <br><span>북극곰을 지켜주세요</span></h2>
+                <a href="#" class="sponsor_link">북극곰 후원하기</a>
+                <a href="#" class="sponsor_question">후원관련 자주 묻는 질문 보기</a>
+            </section>
+        </div>
+        <div class="bg bg2">
+            <div class="all">
+                <form action="#" method="post" id="Quiz">
+                    <fieldset class="quiz">
+                        <legend class="skip"><!-- 퀴즈 --></legend>
+                        <div class="quiz_box">
+                            <h2>Quiz</h2>
+                            <h3>20년 사이 북극 빙하 면적은 몇 % 감소했을까요?</h3>
+                            <ul>
+                                <li><input type="checkbox" name="percent" id="a30" value="a30">
+                                    <label for="a30">30%</label>
+                                </li>
+                                <li><input type="checkbox" name="percent" id="a40" value="a40">
+                                    <label for="a40">40%</label>
+                                </li>
+                                <li><input type="checkbox" name="percent" id="a50" value="a50">
+                                    <label for="a50">50%</label>
+                                </li>
+                                <li><input type="checkbox" name="percent" id="a60" value="a60">
+                                    <label for="a60">60%</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset> 
+                    <button type="button" id="check">정답 확인 하기</button>
+                </form>
+                <div class="participation">
+                    <h3>퀴즈 참여 현황</h3>
+                    <p class="people"><em>38387</em><span>명</span> 참여</p>
+                    <p>*퀴즈 참여 현황은 매주 업데이트 됩니다 </p>
+                </div>
+            </div>
+        <div class="bg bg3">
+            <div class="all">
+                <h1>죽은 어미 곁을 떠나지 못하는 <br>새끼 북극곰의 이야기</h1>
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/4UxUnlvzevA" title="이제 북극에서 북극곰을 볼 수 없을지도 모릅니다 | 빠르게 녹는 빙하와 멸종위기종이 된 북극곰 | 기후온난화 | 자연다큐" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    autoplay muted loop
+                </iframe>
+                <a href="#" class="sponsor_link">북극곰 후원하기</a>
+            </div>
+        </div>
+        <div class="bg bg4">
+            <div class="all">
+                <h1>최근 20년 사이 북극의 빙하 면적은 <br><span>50% 감소</span>하였습니다.</h1>
+                <h2>북극은 북극곰의 주 서식지이자 사냥터 이지만<br>이 순간에도 녹아 내리는 빙하로 인해 북극곰은 갈 곳을 잃었습니다.</h2>
+                <img src="./images/50_img.jpg">
+            </div>
+        </div>
+        <div class="bg bg5">
+            <div class="all">
+                <h1>빙하가 녹으면 인류 재앙으로 돌아옵니다</h1>
+                <p class="details">지구온난화로 북극의 온도를 빠르게 상승하고 빙하는 더욱 빠르게 녹아가고 있습니다.<br>
+                    빙하가 무너져 내리는 경고를 결코 무시해서는 안됩니다.</p>
+                    <div class="box1">
+                        <div class="back1">
+                            <h2 class="head">28조 톤</h2>
+                            <h3 class="body">23년 동안 녹은 빙하의 양</h3>
+                        </div>
+                        <p class="detail">1994~2017까지 23년동안 녹은<br>빙하의 양 28조 톤.<br>해당 동안 해수면 약 3.5cm 상승. 영국<br> 리즈대학교 앤드루 셰퍼드 교수는 “해<br>수면이 1cm 높아질 때 600만 명이 터<br>전을 잃는다” 라고 했습니다.</p>
+                    </div>
+                    <div class="box2">
+                        <div class="back2">
+                            <h2 class="head">27cm</h2>
+                            <h3 class="body">앞으로 높아질 지구 해수면</h3>
+                        </div>
+                        <p class="detail">22년 8월,덴마크 ·그린란드<br>지질연구소 연구팀은<br>“지금까지 그린란드 빙하가 녹으면<br>해수면이 올라갈 것이라는 결과가 나<br>왔지만 27cm는 지금껏 나온 예측치의<br> 두배 수준” 이라고 말했습니다</p>
+                    </div>
+                    <div class="box3">
+                        <div class="back3">
+                            <h2 class="head">332만 명</h2>
+                            <h3 class="body">예상 침수 피해 인원</h3>
+                        </div>
+                        <p class="detail">클라이밋 센트럴 데이터에 따르면<br>해수면 상승과 태풍으로<br>우리나라의 국토 5%가 물에 잠기고<br>332만 여명이 침수 피해 <br>가능성이 있다고 예측됩니다<br><br></p>
+                    </div>
+            </div>
+        </div>
+        <div class="bg bg6">
+            <div class="all">
+                <h1>북극곰의 위기는<br><span>지구 전체의 위기</span>입니다</h1>
+                <h2>먹이사슬의 최상위 포식자인 북극곰이 멸종된다면<br>생태계의 불균형으로 인해 지구 전체의 위기로 이어집니다.</h2>
+                <img src="./images/crisis_img.jpg">
+            </div>
+        </div>
+        <div class="bg bg7">
+            <div class="all">
+                <h1>"믿을 수 있는 환경보전 단체 WWF"</h1>
+                <p class="first">WWF는 1961년에 설립된<br>
+                    세계 최대 비영리 환경보전 기관으로,<br>
+                    세계 100여 개국에서 600만 후원자들과 함께<br>
+                    활발히 활동하고 있습니다.
+                    </p>
+                <p class="second">WWF는 사람과 자연이 조화를 이루며<br>
+                    살아가는 미래를 만들어가고자 합니다.</p>
+            </div>
+        </div>
+        <div class="bg bg8">
+            <div class="all">
+                <div class="no_reason">
+                    <h1>WWF는 지구와 북극곰 보호를 위해<br>다양한 활동을 하고 있습니다</h1>
+                </div>
+                <div class="flex">
+                    <div class="row">
+                        <div class="box_1">
+                            <div class="back_color">
+                                <h2 class="box_head">대중인식제도</h2>
+                                <p class="box_detail">기업들과 함께 공동의 목표 수립하여<br>시민 인식제고 캠페인 활동 진행</p>
+                            </div>
+                        </div>
+                        <div class="box_2">
+                            <div class="back_color">
+                                <h2 class="box_head">기업 임직원 환경 교육</h2>
+                                <p class="box_detail">지속가능성과 자연보전 활동에 대한 <br>교육 진행 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_3">
+                        <div class="back_color">
+                            <h2 class="box_head">자연보전 활동</h2>
+                            <p class="box_detail">기업이 단독으로 할 수 없는<br>자연보전 활동을 다양한 주체와 진행</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg bg9">
+            <div class="all">
+                <h1>북극곰 보호에 참여하시면<br>감사 선물을 드립니다</h1>
+                <a href="#" class="sponsor_link">북극곰 후원하기</a>
+                    <div class="wwf">
+                        <div class="wwf_1">
+                            <img src="./images/sponsor_1.jpg">
+                            <p class="wwf_detail">월 2만원 정기 후원<br><span>팔찌 / 파우치</span></p>
+                        </div>
+                        <div class="wwf_2">
+                            <img src="./images/sponsor_3.jpg">
+                            <p class="wwf_detail">월 3만원 정기 후원<br><span>팔찌 / 파우치 / 에코백</span></p>
+                        </div>
+                        <div class="wwf_3">
+                            <img src="./images/sponsor_2.jpg">
+                            <p class="wwf_detail">월 5만원 정기 후원<br><span>팔찌 / 파우치 / 에코백 / 키링 / 스티커 2장</span></p>
+                        </div>
+                    </div>
+                    <h3>* 정기 후원에 참여하고 연말 정산 세액 공제 혜택 받으세요!</h3>
+            </div>
+        </div>
+        <div class="bg bg10">
+            <h1>북극곰의 위기,<br>지켜볼 수 만은 없습니다</h1>
+            <h2>WWF와 함께 북극곰을 지켜주세요</h2>
+            <a href="#" class="sponsor_link">북극곰 후원하기</a>
+        </div>
+        <div class="bg bg11"></div>
+        <div class="bg bg12"></div>
+    </main>
 </body>
 </html>
