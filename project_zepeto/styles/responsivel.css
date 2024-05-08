@@ -1,0 +1,15 @@
+/* 반응형웹 responsivel.css */
+/* 기존 css에서 변경되는 사항만 작성한다 */
+/* media 조건 시작값 max 기준 사이트 너비 값 주로 이용 */
+@media screen and (max-width: 1300px){
+    header nav {display: none;}
+    main .visual video {width: 1300px;}
+    main .creater {width: 100%;}
+}/*761~1300px */
+@media screen and (max-width: 760px){
+    header h1 {width: 225.75px;}
+    main .creater img {width: 100%;}
+    main .creater .creater_detail .zepeto{ width: 100%;}
+    main .creater .creater_detail .people {width: calc(100% / 2);}
+    main .creater .creater_detail .item {width: calc(100% / 2);}
+}/* 760px */

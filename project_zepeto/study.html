@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        header{min-width: 360px; height: 80px; padding: 0 16px; background-color: black;
+        display: flex; justify-content: space-between; align-items: center; flex-flow: row nowrap;}
+        header h1{width: 301px;}
+        header h1 a{}
+        header h1 a img{width: 100%;}
+        header nav{}
+        header nav a{color: white; font-size: 1.25rem; margin-right: 24px;}
+        header nav a:last-child {margin: 0;}
+        header .snb{display: flex;}
+        header .snb a{}
+        header .snb a:last-child img{width: 36px;}
+        header .snb a:first-child {color: #fff; border: 2px solid #fff; border-radius: 5px; padding: 0 10px;
+        line-height: 39px; margin-right: 24px;}
+        header .snb a img{width: 100%; filter: invert(1);}
+        /*--------------- visual start ---------------*/
+        main .visual {height: 720px; overflow: hidden; position: relative;}
+        main .visual video {width: 100%;}
+        main .visual .visual_title {position: absolute;left: 0; top: 221px;
+        text-align: center; width: 100%;}
+        main .visual .visual_title h2 {font-size: 3rem; font-weight: 700; color: white; line-height: 1.2;}
+        main .visual .visual_title .visual_start {display: inline-block; width: 160px; line-height: 54px;
+        border-radius: 10px; background-color: black; color: white; margin-top: 52px;}
+        /* --------------------------------- 2행 크리에이터----------------------- */
+        main .creater {text-align: center; width: 1300px; margin: 150px auto 0;}
+        main .creater h2{font-weight: 700; font-size: 3rem; margin-bottom: 55px;}
+        main .creater p{font-size: 1.25rem; line-height: 1.5;}
+        main .creater img img{width:100%;}
+        main .creater img{width: 697px;}
+        main .creater .creater_detail { display: flex; flex-flow: row wrap;}
+        main .creater .creater_detail .item {width: calc(100% / 3);}
+        main .creater .creater_detail .item h3{}
+        main .creater .creater_detail .item .creater_detail_p{}
+        main .creater .creater_detail .people{width: calc(100% / 3);}
+        main .creater .creater_detail .people h3 {}
+        main .creater .creater_detail .people .creater_detail_p{}
+        main .creater .creater_detail .zepeto{width: calc(100% / 3);}
+        main .creater .creater_detail .zepeto h3{}
+        main .creater .creater_detail .zepeto .creater_detail_p{}
+        /* 공통선택자 */
+        main .creater .creater_detail .item ,main .creater .creater_detail .people,main .creater .creater_detail .zepeto{
+            margin-top: 55px;}
+        main .creater .creater_detail .zepeto h3,main .creater .creater_detail .people h3 ,main .creater .creater_detail .item h3{
+            font-size: 2rem; font-weight: 600;
+        }
+        main .creater .creater_detail .item .creater_detail_p,main .creater .creater_detail .people .creater_detail_p,main .creater .creater_detail .zepeto .creater_detail_p{
+            font-size: 1.25rem; margin-top: 16px;
+        }
+        /* ----------------------------반응형 웹----------------------------------- */
+        @media screen and (max-width: 1300px) {
+            header nav {display: none;}
+            main .visual video{width: 1300px;}
+            main .creater {width: 100%;}
+            
+        }/* 1300px */
+        @media screen and (max-width: 760px)
+            {header h1 {width: 225.75px;}
+            main .creater img {width: 100%;}
+            main .creater .creater_detail .item {width: calc(100% / 2);}
+            main .creater .creater_detail .peopleo {width: calc(100% / 2);}
+            main .creater .creater_detail .zepeto {width: 100%;}
+            }/* 760px */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#"><img src="./images/logo_zepeto_white.png" alt="제페토"></a></h1>
+        <nav>
+            <a href="#">콘텐츠</a>
+            <a href="#">크리에이터 프로그램</a>
+            <a href="#">비즈니스</a>
+            <a href="#">가이드</a>
+            <a href="#">지원</a>
+        </nav>
+        <div class="snb">
+            <a href="#">콘텐츠 관리</a>
+            <a href="#"><img src="./images/bell-regular.svg" alt="알림설정"></a>
+        </div>
+    </header>
+    <main>
+        <div class="visual">
+            <video src="./bg.mp4" autoplay muted loop></video>
+            <div class="visual_title">
+                <h2>상상하는 모든 것.<br>제페토 스튜디오에서</h2>
+                <a href="#" class="visual_start">시작하기</a>
+            </div>
+        </div>
+        <!-- 2행 크리에이터를 위한 제페토 -->
+        <div class="creater">
+            <h2>크리에이터를 위한 제페토.</h2>
+            <p>제페토 크리에이터는 제페토 세상의 모든 것을 직접 만들 수 있습니다.<br>전 세계 3억 유저에게 당신의 아이디어를 보여주세요!</p>
+            <P class="img "><img src="./images/img_creators.png" alt=""></P>
+            <div class="creater_detail">
+                <div class="item">
+                    <h3>6800만</h3>
+                    <p class="creater_detail_p">스튜디오 아이템 판매량</p>
+                </div>
+                <div class="people">
+                    <h3>230만</h3>
+                    <p class="creater_detail_p">스튜디오 크리에이터 수</p>
+                </div>
+                <div class="zepeto">
+                    <h3>3억</h3>
+                    <p class="creater_detail_p">제페토 가입자 수</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
