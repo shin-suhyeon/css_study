@@ -65,3 +65,44 @@ main .creater .creater_detail .zepeto h3,main .creater .creater_detail .people h
 main .creater .creater_detail .item .creater_detail_p,main .creater .creater_detail .people .creater_detail_p,main .creater .creater_detail .zepeto .creater_detail_p{
     font-size: 1.25rem; margin-top: 16px;
 }
+/* ----------------------------------------------3 제페토 세상 -----------------------------------*/
+main .world_all {width: 1920; height: 882px; background-color: #f5f5f5; margin-top: 150px;}
+main .world_all .bg{width: 1300px; height: 582px; margin: 0 auto;}
+main .world_all .bg h2{font-weight: 700; line-height: 1,5; text-align: center; font-size: 3rem; padding: 150px 0 50px;}
+main .world_all .bg .p_detail{font-size: 1.25rem; text-align: center; margin-bottom: 50px;  line-height: 1.5;}
+/* 아이템 */
+main .world_all .bg .all{display: flex; justify-content:space-between; align-items: center; padding: 0 16px;}
+main .world_all .bg .all .item{display: flex; flex-flow: column wrap; align-items: center; }
+main .world_all .bg .all .item h3{}
+main .world_all .bg .all .item .detail{}
+main .world_all .bg .all .item .more{}
+main .world_all .bg .all .world{display: flex; flex-flow: column wrap; align-items: center;}
+main .world_all .bg .all .world h3{}
+main .world_all .bg .all .world .detail{}
+main .world_all .bg .all .world .more{}
+main .world_all .bg .all .live {display: flex; flex-flow: column wrap; align-items: center;}
+main .world_all .bg .all .live h3{}
+main .world_all .bg .all .live .detail{}
+main .world_all .bg .all .live .more{}
+/* 공통선택자 */
+/* h3 */
+main .world_all .bg .all .item h3,main .world_all .bg .all .world h3,main .world_all .bg .all .live h3 {
+    text-align: center; padding: 63px 0 40px; font-size: 1.5rem; font-weight: 700;}
+/* p_detail */
+main .world_all .bg .all .item .detail,main .world_all .bg .all .world .detail,main .world_all .bg .all .live .detail {
+    text-align: center; padding-bottom: 50px; line-height: 1.7;}
+/*   */
+main .world_all .bg .all .item,main .world_all .bg .all .world,main .world_all .bg .all .live {
+    width: calc((100% / 3) - 20px);height: 350px; background-color: #fff; border-radius: 15px;}
+/* a */
+main .world_all .bg .all .item .more,main .world_all .bg .all .world .more,main .world_all .bg .all .live .more{
+    color: #fff; background-color: black; width: 128px; height: 54px; border-radius: 20px; 
+    display: flex; align-items: center; justify-content: center;}
+/* -----------------------------4행 3억명------------------------------ */
+main .million {width: 1300PX; margin:  150px auto;}
+main .million h2 {font-weight: 700; font-size: 3rem; text-align: center; margin: 150px 0 50px;}
+main .million h3{font-size: 1.25rem; text-align: center; margin-bottom: 50px; line-height: 1.5;}
+main .million .imgs{display: flex; justify-content: space-between; padding: 0 16px;}
+main .million .imgs p{}
+main .million .imgs p img{width: 240px; margin-bottom: 150px; margin-right: 10px;}
+main .million .imgs p:last-child { margin: 0;}

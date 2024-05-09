@@ -5,6 +5,12 @@
     header nav {display: none;}
     main .visual video {width: 1300px;}
     main .creater {width: 100%;}
+    main .world_all .bg {width: 100%;}
+    /* 4행 3억명 */
+    main .million {width: 100%;}
+    main .million .imgs p:last-child {display: none;}
+    main .million .imgs p img {width: 100%;}
+    main .million .imgs p {width: calc((100% / 4) - 20px);}
 }/*761~1300px */
 @media screen and (max-width: 760px){
     header h1 {width: 225.75px;}
@@ -12,4 +18,20 @@
     main .creater .creater_detail .zepeto{ width: 100%;}
     main .creater .creater_detail .people {width: calc(100% / 2);}
     main .creater .creater_detail .item {width: calc(100% / 2);}
+    /* 3행 */
+    main .world_all .bg .all{flex-flow: column;}
+    /* 3개 박스 */
+    main .world_all .bg .all .item,main .world_all .bg .all .live,main .world_all .bg .all .world {
+        width: 100%; height: 150px;justify-content: center; margin: 10px 0; display: flex; padding: 0 50px;}
+    /* 더 알아보기 */
+    main .world_all .bg .all .item .more,main .world_all .bg .all .world .more,main .world_all .bg .all .live .more {padding: 0; }
+    /* p */
+    main .world_all .bg .all .item .detail,main .world_all .bg .all .world .detail,main .world_all .bg .all .live .detail{padding: 63px;}
+    /* 4행 3억명 */
+    main .million .imgs p:nth-child(4) {display: none;}
+    main .million h2{font-size: 2.188rem;}
+    main .million h3{font-size: 1.0rem;}
+    main .million .imgs p img {width: 100%; }
+    main .million .imgs p {width: calc((100% / 3) - 30px);}
+
 }/* 760px */
