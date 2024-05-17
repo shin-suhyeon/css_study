@@ -1,0 +1,56 @@
+main {}
+main .bg{}
+main .bg1{background-image: url(../img/1bg\ \(1\).jpg); width: 1920px; height: 998px;}
+main .bg1 h1{text-align: center; padding-top    : 25px;}
+main .bg1 h1 a{}
+main .bg1 h2{text-align: center; margin-top: 40px;}
+main .bg1 h2 img{}
+main .bg1 p{font-size: 0.875; font-weight: 500; color: white; text-align: center; margin-top: 15px;}
+main .bg2{width: 1250px; margin: 0 auto;}
+main .bg2 .event_1{background-color: aliceblue; display: inline-block;}
+main .bg2 .event_1 h2{text-align: center;}
+main .bg2 .event_1 h2 img{}
+main .bg2 .event_1 p{background-color: yellow;}
+main .bg2 .event_1 dl{background-color: green;}
+main .bg2 .event_1 dl dt{background-color: blue;}
+main .bg2 .event_1 dl dd{background-color: violet;}
+main .bg2 p > img{background-color: aqua;}
+main .bg2 img > p{background-color: chartreuse;}
+main .bg2 .phone{background-color: thistle;}
+main .bg2 .write{display: inline-block;}
+main .bg2 .write .phone>input {width: 403px;}
+main .bg3{}
+main .bg3 h2{margin-left: 74px; width: 713px;}
+main .bg3 .up{ display: inline-block;}
+main .bg3 .up .top{display: flex; flex-flow:column nowrap;flex-direction:row-reverse;}
+main .bg3 .up .top img,main .bg3 .up .btn img{width: 430px;}
+main .bg3 .up .top p, main .bg3 .up .btn p{display: flex; flex-wrap:wrap; } 
+main .bg3 .up .btn{display: flex;  flex-flow:column nowrap;}
+
+main .bg4{}
+main .bg4 .benefit{}
+main .bg4 .benefit p{}
+main .bg4 .membership{}
+main .bg4 .membership p{}
+main .bg5{}
+main .bg5 dt > img{}
+main .bg5 dd{}
+main .bg5 .cell > img{}
+main .bg6{}
+main .bg6 img{}
+main .bg7{}
+main .bg7 img{}
+main .bg8 {}
+main .bg8 h2{}
+main .bg8 img{}
+main .bg9{}
+main .bg9 h2{}
+main .bg9 img{}
+main .bg10{}
+main .bg10 img{}
+main .bg11{}
+main .bg11 img{}
+main .bg11 dl{}
+main .bg11 dt{}
+main .bg11 dd{}
+
